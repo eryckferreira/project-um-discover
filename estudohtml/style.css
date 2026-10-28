@@ -18,7 +18,7 @@ body {
 }
 
 :root {
-  --bg-url: url("./assets/bg-mobile.jpg");
+  --bg-url: url("./assets/avatar-light.png");
   --background-color: #b9b0b054;
   --text-color: rgb(207, 198, 198);
   --border-color: #f7f7f762;
@@ -27,7 +27,7 @@ body {
 }
 
 .light {
-  --bg-url: url("./assets/avatar.png");
+  --bg-url: url("./assets/avatar-light.png");
   --background-color: #a8a5a52d;
   --text-color: rgb(3, 3, 3);
   --border-color: #837f7fa4;
@@ -185,10 +185,10 @@ span {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url("./assets/avatar.png");
+    --bg-url: url("./assets/avatar-light.png");
   }
   
   .light {
-    --bg-url: url("./assets/bg-desktop.jpg");
+    --bg-url: url("./assets/avatar.png");
   }
 }
